@@ -30,15 +30,6 @@ def main():
     }
 
     while True:
-        print("\n=========== MENU ===========")
-        print("1. Hiển thị danh sách sản phẩm")
-        print("2. Thêm sản phẩm mới")
-        print("3. Cập nhật thông tin sản phẩm")
-        print("4. Xóa sản phẩm")
-        print("5. Tìm kiếm sản phẩm")
-        print("6. Lưu dữ liệu")
-        print("0. Thoát chương trình")
-        print("============================")
         print_menu()
         
         choice = input("Nhập lựa chọn của bạn: ")
