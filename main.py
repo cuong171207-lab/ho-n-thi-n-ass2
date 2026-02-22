@@ -1,6 +1,5 @@
 import product_manager as pm
 
-
 def print_menu():
     print("\n=========== MENU ===========")
     print("1. Hiển thị danh sách sản phẩm")
