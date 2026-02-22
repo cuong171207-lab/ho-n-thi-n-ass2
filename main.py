@@ -33,7 +33,6 @@ def main():
         
         choice = input("Nhập lựa chọn của bạn: ").strip()
 
-        if choice == "0":
         if choice == '0':
             print("Đang lưu dữ liệu trước khi thoát...")
             pm.save_data(products)
@@ -41,7 +40,6 @@ def main():
             break
         elif choice in menu_actions:
             # Các chức năng 2, 3, 4 có thay đổi dữ liệu nên cần cập nhật lại biến products
-            if choice in ["2", "3", "4"]:
             if choice in ['2', '3', '4']:
                 products = menu_actions[choice](products)
             else:
