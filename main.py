@@ -20,12 +20,6 @@ def main():
 
     # Ánh xạ lựa chọn với hàm xử lý tương ứng
     menu_actions = {
-        "1": pm.display_all_products,
-        "2": pm.add_product,
-        "3": pm.update_product,
-        "4": pm.delete_product,
-        "5": pm.search_product_by_name,
-        "6": pm.save_data,
         '1': pm.display_all_products,
         '2': pm.add_product,
         '3': pm.update_product,
