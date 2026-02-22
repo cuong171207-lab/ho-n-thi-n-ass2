@@ -30,7 +30,6 @@ def main():
 
     while True:
         print_menu()
-
         
         choice = input("Nhập lựa chọn của bạn: ").strip()
 
