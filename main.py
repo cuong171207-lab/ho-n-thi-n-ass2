@@ -13,7 +13,6 @@ def print_menu():
 
 def main():
     print("CHÀO MỪNG ĐẾN VỚI HỆ THỐNG QUẢN LÝ POLYLAP")
-
     
     # 1. Tải dữ liệu khi khởi động
     products = pm.load_data()
